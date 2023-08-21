@@ -12,6 +12,7 @@
     font-size: 25px;
     border: none;
     transition: 0.2s;
+    margin: 20px auto;
     box-shadow: inset 0 0 5px black;
   }
   
@@ -33,6 +34,7 @@
     color: white;
     transition: 0.2s all;
     box-shadow: 0 0 10px black;
+    cursor: pointer;
   }
   
   .input_submit:hover {
@@ -47,7 +49,7 @@
   .container {
     width: 95%;
     display: flex;
-    margin-top: 10px;
+    margin: 10px auto 0 auto;
     justify-content: space-between;
     align-items: flex-start;
   }
@@ -55,6 +57,7 @@
   .todos {
     border-radius: 5px;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     width: 47.5%;
     padding: 15px;
@@ -135,5 +138,17 @@
     .todos {
       width: 95%;
       margin-bottom: 10px;
+    }
+
+    .todos__heading {
+        font-size: 25px;
+    }
+
+    .todos__single--text {
+        font-size: 20px;
+    }
+
+    .input__box {
+        font-size: 20px;
     }
   }
