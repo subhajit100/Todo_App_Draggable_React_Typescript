@@ -62,6 +62,7 @@ const App: React.FC = () => {
     <DragDropContext onDragEnd={onDragEnd}>
       <div className="App">
         <span className="heading">Taskify</span>
+        <h3 className="minor_heading">Seamless Drag-and-Drop Task Manager</h3>
         <InputField
           todo={todo}
           setTodo={setTodo}
