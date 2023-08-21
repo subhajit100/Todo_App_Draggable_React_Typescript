@@ -24,7 +24,7 @@ const InputField: React.FC<InputFieldProps> = ({
     >
       <input
         type="text"
-        placeholder="Enter your text"
+        placeholder="Enter Your Task"
         className="input__box" // using BEM convention CSS
         value={todo}
         ref={inputRef}
